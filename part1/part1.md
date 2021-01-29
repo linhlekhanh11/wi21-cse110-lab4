@@ -29,6 +29,6 @@
 9.  It will not print anything since i is declared inside the for loop
 10. It will not print anything since discountedPrice is declared inside the for loop
 11. It will not print the finalPrice since finalPrice is declared inside the function
-12. It will not be able to return anything
+12. It will not be able to return anything                             
 13. 
 
