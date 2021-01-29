@@ -96,6 +96,20 @@
     - == is used for comparing two variables, but it will ignore the datatype of variable
     - === is used for comparing two variables, but it checks datatype and values.
 
-17. It will print "How are you?" True is treated as 1, so 2 != 1 => return false. Hence, it will print "How are you?"
+17. It will print "How are you?" True is treated as 1, so 2 != 1 => return false. Hence, it will skip the first condition and then do to the second condition and print "How are you?"
 
-19. 
+19. It will return [6,8,10].
+        the code will run through the doSomething as the first callback function.
+        In the line 4, newArr is a new array is disclared as const, through the for-loop scope, newArr will append a new value from callback(array[i], function(x) { return x * 2 ; }); 
+        Then, it will increase array[i] by adding 2 in line 12, then return function(arr[i] + 2). 
+        Therefore, each value of the array will be multiplied by 2.
+
+        => (1 + 2) * 2 = 6
+        => (2 + 2) * 2 = 8
+        => (3 + 2) * 2 = 10
+
+21. 
+1
+4
+3 
+2
